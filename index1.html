@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+  <h1 class="logo">KOMAL</h1>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <button id="darkToggle" class="dark-btn">🌙</button>
+</nav>
+
+  </header>
+  <section id="home" class="hero" data-aos="zoom-in">
+    <h2>Hello, I'm <span>KOMAL </span></h2>
+    <p>Web Developer | JavaScript Enthusiast</p>
+  </section>
+  <section id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer who loves building responsive and dynamic websites.
+      I specialize in HTML, CSS, JavaScript, and modern design trends.
+    </p>
+  </section>
+
+  <section id="projects"  data-aos="fade-up">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card" data-aos="zoom-in">
+  <img src="images/portfolio.png" alt="Portfolio Project" class="project-img" />
+  <h3>Portfolio Website</h3>
+  <p>Responsive portfolio built using HTML, CSS & JavaScript.</p>
+  <a href="#">Live</a> | <a href="#">GitHub</a>
+</div>
+
+      <div class="project-card" data-aos="zoom-in">
+  <img src="images/portfolio.png" alt="Portfolio Project" class="project-img" />
+  <h3>Portfolio Website</h3>
+  <p>Responsive portfolio built using HTML, CSS & JavaScript.</p>
+  <a href="#">Live</a> | <a href="#">GitHub</a>
+</div>
+
+      <!-- Add more cards as needed -->
+    </div>
+  </section>
+  <section id="testimonials" data-aos="fade-up">
+  <h2>What People Say</h2>
+  <div class="testimonials-container">
+    <div class="testimonial-card">
+      <p>"Working with Komal was a fantastic experience. They delivered the project on time and exceeded expectations!"</p>
+      <h4>- John Doe, Client</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"A truly talented developer who understands both design and code. Highly recommended."</p>
+      <h4>- Jane Smith, Designer</h4>
+    </div>
+    <!-- Add more testimonials as needed -->
+  </div>
+</section>
+<section id="blog" data-aos="fade-up">
+  <h2>Blog & Articles</h2>
+  <div class="blog-container">
+    <div class="blog-post">
+      <h3>How I Built My Portfolio Website</h3>
+      <p>A quick overview of the tools, layout, and tricks I used to build this responsive website.</p>
+      <a href="#">Read more →</a>
+    </div>
+    <div class="blog-post">
+      <h3>Top 5 VSCode Extensions for Web Developers</h3>
+      <p>Make your workflow faster with these powerful extensions.</p>
+      <a href="#">Read more →</a>
+    </div>
+    <!-- Add more blog posts -->
+  </div>
+</section>
+
+  <section id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <form action="https://formsubmit.co/aashishkupaliwal2001@gmail.com" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>© Komal 2025. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scriptt.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
